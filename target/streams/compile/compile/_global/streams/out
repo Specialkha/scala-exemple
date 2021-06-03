@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:3:6: only traits and abstract classes can have declared but undefined members[0m
+[0m[[0m[31merror[0m] [0m[0m val world: String[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:6:9: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m  world = "Hellow, New York"[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:7:3: enclosing method setWorld has result type Unit: return value of type String discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m  return world[0m
+[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

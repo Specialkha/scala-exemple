@@ -11,28 +11,64 @@
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.clearurdoubt.Calculator, com.clearurdoubt.Calendar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(calc.Calculator, calc.calculator)[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.clearurdoubt.Calculator, com.clearurdoubt.Calendar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(calc.Calculator, calc.calculator)[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/calculator.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.clearurdoubt.Calculator, com.clearurdoubt.Calendar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: calc.Calculator, calc.calculator[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.5.3:compile for Scala 2.13.3[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 4272733e for Scala compiler version 2.13.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 783ca96c for Scala compiler version 2.13.3[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\sunrsasign.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\jce.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\lib\jfr.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre\classes;C:\Users\Pascal\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes;C:\Users\Pascal\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from calc.Calculator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: calc.Calculator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(calc.Calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(calc.Calculator,ModifiedNames(changes = UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(-,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(+,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(/,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(calc;Calculator;init;,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(*,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(squareRoot,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(sqrd,[Default]), UsedName(getClass,[Default]), UsedName(Calculator,[Default]))) invalidates 1 classes due to The calc.Calculator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(-,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(+,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(/,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(calc;Calculator;init;,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(*,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(squareRoot,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(sqrd,[Default]), UsedName(getClass,[Default]), UsedName(Calculator,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(calc.Calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from calc.calculator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: calc.calculator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(calc.calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(calc.calculator,ModifiedNames(changes = UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(calculator,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(eq,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The calc.calculator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(calculator,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(eq,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(calc.calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.clearurdoubt.Calculator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.clearurdoubt.Calculator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.clearurdoubt.Calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.clearurdoubt.Calculator,ModifiedNames(changes = UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(-,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(+,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(/,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(*,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(squareRoot,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(com;clearurdoubt;Calculator;init;,[Default]), UsedName(sqrd,[Default]), UsedName(getClass,[Default]), UsedName(Calculator,[Default]))) invalidates 1 classes due to The com.clearurdoubt.Calculator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(-,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(+,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(/,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(*,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(squareRoot,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(com;clearurdoubt;Calculator;init;,[Default]), UsedName(sqrd,[Default]), UsedName(getClass,[Default]), UsedName(Calculator,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(com.clearurdoubt.Calculator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.clearurdoubt.Calendar...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.clearurdoubt.Calendar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.clearurdoubt.Calendar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.clearurdoubt.Calendar,ModifiedNames(changes = UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(eq,[Default]), UsedName(Calendar,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The com.clearurdoubt.Calendar has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(notify,[Default]), UsedName(##,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName(synchronized,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(ne,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]), UsedName(clone,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(equals,[Default]), UsedName(isInstanceOf,[Default]), UsedName(main,[Default]), UsedName(eq,[Default]), UsedName(Calendar,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(com.clearurdoubt.Calendar)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
 [0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.4532648 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.1936716 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m

@@ -1,11 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:19:22: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Double[0m
-[0m[[0m[31merror[0m] [0m[0m required: Option[Double][0m
-[0m[[0m[31merror[0m] [0m[0m      scala.math.sqrt(a)[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:21:7: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int(-1)[0m
-[0m[[0m[31merror[0m] [0m[0m required: Option[Double][0m
-[0m[[0m[31merror[0m] [0m[0m      -1[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:22:8: Generated class calc.calculator differs only in case from calc.Calculator.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Such classes will overwrite one another on case-insensitive filesystems.[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject calculator {[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

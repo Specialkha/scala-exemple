@@ -1,1 +1,23 @@
-[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\hello-world_2.13-1.0.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\com[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\clearurdoubt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\com\clearurdoubt[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\clearurdoubt\Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\com\clearurdoubt\Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\clearurdoubt\Calendar$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\com\clearurdoubt\Calendar$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com\clearurdoubt\Calendar.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\com\clearurdoubt\Calendar.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FrenchDate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\FrenchDate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FrenchDate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\FrenchDate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\target\scala-2.13\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

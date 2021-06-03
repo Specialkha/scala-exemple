@@ -1,11 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:3:6: only traits and abstract classes can have declared but undefined members[0m
-[0m[[0m[31merror[0m] [0m[0m val world: String[0m
-[0m[[0m[31merror[0m] [0m[0m     ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:6:9: reassignment to val[0m
-[0m[[0m[31merror[0m] [0m[0m  world = "Hellow, New York"[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\Main.scala:7:3: enclosing method setWorld has result type Unit: return value of type String discarded[0m
-[0m[[0m[33mwarn[0m] [0m[0m  return world[0m
-[0m[[0m[33mwarn[0m] [0m[0m  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:14:18: not found: type Signal[0m
+[0m[[0m[31merror[0m] [0m[0m  ): Map[String, Signal[Double]] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:13:37: not found: type Signal[0m
+[0m[[0m[31merror[0m] [0m[0m      namedExpressions: Map[String, Signal[Expr]][0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:16:30: not found: type Signal[0m
+[0m[[0m[31merror[0m] [0m[0m    var values = Map[String, Signal[Double]]()[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:25:48: not found: type Signal[0m
+[0m[[0m[31merror[0m] [0m[0m  def eval(expr: Expr, references: Map[String, Signal[Expr]]): Double = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Pascal\OneDrive - Association Cesi Viacesi mail\CESI RIL 2020\Exemple Scala\hello-world\src\main\scala\calculator.scala:43:31: not found: type Signal[0m
+[0m[[0m[31merror[0m] [0m[0m      references: Map[String, Signal[Expr]][0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
